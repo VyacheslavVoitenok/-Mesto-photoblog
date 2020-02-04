@@ -1,0 +1,35 @@
+{
+  "name": "11thsprintwork",
+  "version": "1.0.0",
+  "description": "11th sprint work",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VyacheslavVoitenok/11thSprintWork.git"
+  },
+  "author": "Vyacheslav Voitenok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VyacheslavVoitenok/11thSprintWork/issues"
+  },
+  "homepage": "https://github.com/VyacheslavVoitenok/11thSprintWork#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.4.1"
+  }
+}
