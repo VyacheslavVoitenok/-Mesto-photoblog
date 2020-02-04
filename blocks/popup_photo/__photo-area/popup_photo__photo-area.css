@@ -1,0 +1,16 @@
+.popup_photo__photo-area {
+    position: relative;
+    max-width: 80vw;
+    max-height: 80vh;
+    width: auto;
+    height: 100%;
+    min-height: inherit;
+
+}
+
+.popup_photo__picture {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    border-radius: 10px;
+}

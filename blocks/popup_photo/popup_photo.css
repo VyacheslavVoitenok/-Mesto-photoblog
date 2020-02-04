@@ -1,0 +1,16 @@
+@import url(./_is-opened/popup_photo_is-opened.css);
+@import url(./__photo-area/popup_photo__photo-area.css);
+@import url(./__close/popup_photo__close.css);
+
+.popup_photo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
