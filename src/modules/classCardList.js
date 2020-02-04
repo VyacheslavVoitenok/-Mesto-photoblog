@@ -1,6 +1,6 @@
 `use strict`;
 
-import Card from '../src/modules/classCard.js'
+import Card from './classCard.js'
 
 export default class CardList {
     constructor(container) {
