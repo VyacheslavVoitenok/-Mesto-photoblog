@@ -1,6 +1,6 @@
 `use strict`;
 
-import "./pages/index.css'";
+import "./pages/index.css";
 
 import CardList from './modules/classCardList.js';
 import Api from './modules/classApi.js';
