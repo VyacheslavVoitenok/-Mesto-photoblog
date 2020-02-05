@@ -1,12 +1,12 @@
 `use strict`;
 
-import "./pages/index.css";
+import './pages/index.css';
 
-import CardList from './modules/classCardList.js';
-import Api from './modules/classApi.js';
-import Validation from './modules/classValidation.js';
-import Popup from './modules/classPopup.js'
-import { errorMessages } from './modules/ErrorMessages.js'
+import CardList from './classCardList';
+import Api from './classApi';
+import Popup from './classPopup';
+import Validation from './classValidation';
+import {errorMessages} from './ErrorMessages';
 
 /*
 Переменные
