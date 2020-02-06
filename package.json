@@ -12,17 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karpov2/Mesto.git"
+    "url": "git+https://github.com/VyacheslavVoitenok/11thSprintWork.git"
   },
   "keywords": [
     "mesto"
   ],
-  "author": "Ilya Karpov",
+  "author": "Voitenok Vyacheslav",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/karpov2/Mesto/issues"
-  },
-  "homepage": "https://github.com/karpov2/Mesto",
+
+  "homepage": "https://github.com/VyacheslavVoitenok/11thSprintWork",
   "devDependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
@@ -49,5 +47,5 @@
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.4.1"
   },
-  "description": ""
+  "description": "Небольшой коллективный блог с фотографиями"
 }
