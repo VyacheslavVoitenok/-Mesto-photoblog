@@ -12,7 +12,7 @@ v.0.0.2
 - Webpack
 
 # Демо
-https://vyacheslavvoitenok.github.io/11thSprintWork/src/
+https://vyacheslavvoitenok.github.io/11thSprintWork
 
 
 # Для локальной разработки с поднятием сервера используйте:
