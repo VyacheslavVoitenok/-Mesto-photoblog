@@ -1,6 +1,6 @@
 `use strict`;
 
-class Api {
+export default class Api {
     constructor({ baseUrl, headers }) {
       this.baseUrl = baseUrl;
       this.headers = headers;
@@ -11,7 +11,7 @@ class Api {
       return fetch(`${this.baseUrl}/cards`, {
         headers: this.headers
       })
-      .then(res => api._getResponseData(res))
+      .then(res => this._getResponseData(res))
     }
   
     //получить информацию о пользователе
@@ -19,7 +19,7 @@ class Api {
       return fetch(`${this.baseUrl}/users/me`, {
         headers: this.headers
     })
-    .then(res => api._getResponseData(res))
+    .then(res => this._getResponseData(res))
   
   }
   
@@ -33,7 +33,7 @@ class Api {
             about: about,
         })
       })
-      .then(res => api._getResponseData(res))
+      .then(res => this._getResponseData(res))
     }
   
     //добавить новую карточку
@@ -46,7 +46,7 @@ class Api {
           link: link,
         })
       })
-        .then(res => api._getResponseData(res))
+        .then(res => this._getResponseData(res))
     }
   
     deleteCard(deleteId){
@@ -54,7 +54,7 @@ class Api {
         method: `DELETE`,
         headers: this.headers,
       })
-      .then(res => api._getResponseData(res))
+      .then(res => this._getResponseData(res))
     }
   
     likeCard(cardId){
@@ -62,7 +62,7 @@ class Api {
         method: `PUT`,
         headers: this.headers,
       })
-      .then(res => api._getResponseData(res))
+      .then(res => this._getResponseData(res))
   }
   
     unlikeCard(cardId){
@@ -70,7 +70,7 @@ class Api {
         method: `DELETE`,
         headers: this.headers,
       })
-      .then(res => api._getResponseData(res))
+      .then(res => this._getResponseData(res))
     }
   
     _getResponseData(res) {

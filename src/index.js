@@ -1,5 +1,13 @@
 `use strict`;
 
+import './pages/index.css';
+
+import CardList from './classCardList';
+import Api from './classApi';
+import Popup from './classPopup';
+import Validation from './classValidation';
+import {errorMessages} from './ErrorMessages';
+
 /*
 Переменные
 */
@@ -34,6 +42,12 @@ const userOccupation = root.querySelector('.user-info__job'); // родя зан
 const form = document.forms.new; //форма добавления новой карточки
 const profileForms = document.forms.profile; // форма редактирования профиля
 
+//url сервера
+const serverUrl =
+  NODE_ENV === "development"
+    ? "http://praktikum.tk/cohort6"
+    : "https://praktikum.tk/cohort6";
+
 
 
 /* 
@@ -45,9 +59,11 @@ const popupEdit = new Popup(profileInfo, 'popup_is-opened', profileCloseButton);
 
 const validation = new Validation(errorMessages); // объект для валидации инпутов
 
+//http://95.216.175.5/cohort6
+
 // Объект для работы с API
 const api = new Api({
-  baseUrl: 'http://95.216.175.5/cohort6',
+  baseUrl: serverUrl,
   headers: {
     authorization: '3ed8c633-9c79-4f37-9ab9-ece399fdbd14',
     'Content-Type': 'application/json'

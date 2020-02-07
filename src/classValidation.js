@@ -1,6 +1,6 @@
 `use strict`;
 
-class Validation{
+export default class Validation{
     constructor(errorMessages){
         this.errorMessages = errorMessages;
     }
