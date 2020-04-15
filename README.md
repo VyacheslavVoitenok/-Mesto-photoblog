@@ -12,7 +12,7 @@ v.0.0.4
 - Webpack
 
 # Демо
-https://vyacheslavvoitenok.github.io/11thSprintWork
+https://vyacheslavvoitenok.github.io/-Mesto-photoblog
 
 
 # Для локальной разработки с поднятием сервера используйте:
